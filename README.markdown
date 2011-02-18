@@ -2,6 +2,10 @@
 
 A Simple textmate bundle to run the linter, and the fixjsstyle commands within the Editor.
 
+## Requirements
+
+You'll need the python closure\_linter package (# pip install closure\_linter), and that should be it.
+
 ## Usage
 
 
