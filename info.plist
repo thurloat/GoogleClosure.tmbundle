@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Google Closure</string>
+	<key>ordering</key>
+	<array>
+		<string>4F7786F6-2C23-4F69-8F8E-D3BC30AF66FB</string>
+		<string>300F3798-6979-4B60-B4F3-FB72DE0729AF</string>
+	</array>
+	<key>uuid</key>
+	<string>7C40C024-A75F-48FA-A540-D6E37819F2B2</string>
+</dict>
+</plist>

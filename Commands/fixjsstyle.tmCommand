@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>saveActiveFile</string>
+	<key>command</key>
+	<string>#!/usr/bin/env python
+
+import os
+from closure_linter import checker
+from closure_linter import error_fixer
+from closure_linter.common import simplefileflags as fileflags
+
+style_checker = checker.JavaScriptStyleChecker(error_fixer.ErrorFixer())
+style_checker.Check(os.environ['TM_FILEPATH'])
+</string>
+	<key>input</key>
+	<string>document</string>
+	<key>keyEquivalent</key>
+	<string>^~Z</string>
+	<key>name</key>
+	<string>fixjsstyle</string>
+	<key>output</key>
+	<string>showAsTooltip</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>uuid</key>
+	<string>4F7786F6-2C23-4F69-8F8E-D3BC30AF66FB</string>
+</dict>
+</plist>
