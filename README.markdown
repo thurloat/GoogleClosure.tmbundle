@@ -8,7 +8,6 @@ You'll need the python closure\_linter package (# pip install closure\_linter), 
 
 ## Usage
 
-
  - SHIFT + OPTION + CONTROL + A = Run the linter
  - SHIFT + OPTION + CONTROL + Z = Run the Auto-fixer (destructive)
  
